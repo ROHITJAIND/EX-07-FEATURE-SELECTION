@@ -9,7 +9,12 @@ Selecting the best features helps the model to perform well.
 - Step1: Read the given Data
 - Step2: Clean the Data Set using Data Cleaning Process.
 - Step3: Apply Feature selection techniques to all the features of the data set.
-- Step4: Save the data to the file. 
+- Step4: Save the data to the file.
+
+```
+Developed By: ROHIT JAIN D
+Register No: 212222230120
+```
 ### Code:
 ```Python
 import pandas as pd
@@ -106,13 +111,14 @@ plt.show()
 <td>
 
 ```Python
-data.Pclass.value_counts(normalize=True).plot(kind='bar',alpha=0.5)
+data.Pclass.value_counts(normalize=True)
+                .plot(kind='bar',alpha=0.5)
 plt.show()
 ```
 </td>
 <td>
 
-<img height=80% width=85% src="https://github.com/ROHITJAIND/EX-07-FEATURE-SELECTION/assets/118707073/2162c897-9b45-403f-b948-7686634ad73d">
+<img height=50% width=90% src="https://github.com/ROHITJAIND/EX-07-FEATURE-SELECTION/assets/118707073/2162c897-9b45-403f-b948-7686634ad73d">
 
 </td>
 </tr>
